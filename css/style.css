@@ -13,6 +13,7 @@ body {
 
 h1 {
     font-size: 36px;
+    height: 36px;
 }
 
 
@@ -129,10 +130,11 @@ img {
 .task-list span {
     background-color: lightskyblue;
     border-radius: 10px;
-    padding: 2px 12px;
+    padding: 3px 12px;
     color: #fff;
     margin: 0px 10px;
     font-size: 14px;
+    vertical-align: middle;
 }
 
 
