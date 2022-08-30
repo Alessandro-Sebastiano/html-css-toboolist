@@ -30,3 +30,34 @@ body {
 img {
     width: 50px;
 }
+
+
+.content {
+    width: 60%;
+    min-width: 60%;
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.input {
+    padding: 8px 80px;
+}
+
+
+.input button {
+    padding: 8px 18px;
+    margin: 5px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    font-weight: 500;
+}
+
+#restyle {
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
