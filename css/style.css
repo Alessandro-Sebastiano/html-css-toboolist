@@ -16,6 +16,8 @@ h1 {
 }
 
 
+
+/*nav-logo*/
 .nav {
     background-color: #fff;
     padding: 10px;
@@ -24,10 +26,14 @@ h1 {
 
 .nav-container {
     height: 50px;
-    display: flex;
-    align-items: center;
 }
 
+
+.logo,
+.logo-text {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 .logo {
@@ -38,14 +44,19 @@ h1 {
     width: 100%;
 }
 
+
+
+/*task-content*/
 .content {
     width: 60%;
-    min-width: 60%;
+    min-width: 700px;
     margin: 40px auto;
     border-radius: px 5px 0px 0px;
 }
 
 
+
+/* content-button */
 .input {
     padding: 8px 80px;
     background-color: #fff;
@@ -70,6 +81,8 @@ h1 {
 }
 
 
+
+/* task-list */
 .section {
     background-color: #fff;
     padding: 30px 80px;
@@ -123,7 +136,7 @@ img {
 }
 
 
-
+/* task-list-highlighted-color*/
 
 #color-blue {
     background-color: blue;
