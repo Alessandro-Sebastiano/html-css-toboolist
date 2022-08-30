@@ -11,6 +11,10 @@ body {
     font-size: small;
 }
 
+h1 {
+    font-size: 36px;
+}
+
 
 .nav {
     background-color: #fff;
@@ -50,7 +54,7 @@ body {
 
 
 .input button {
-    padding: 5px 20px;
+    padding: 8px 18px;
     margin: 5px;
     border: transparent;
     border-radius: 5px;
@@ -87,6 +91,8 @@ span {
 
 .task-list ul {
     list-style: none;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 
@@ -96,7 +102,7 @@ span {
 
 
 .task-list figure,
-ul {
+img {
     display: inline-block;
     vertical-align: middle;
 }
@@ -113,6 +119,7 @@ img {
     padding: 2px 12px;
     color: #fff;
     margin: 0px 10px;
+    font-size: 14px;
 }
 
 
