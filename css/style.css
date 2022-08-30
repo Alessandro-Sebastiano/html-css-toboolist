@@ -26,11 +26,13 @@ body {
 
 
 
-.logo,
-img {
+.logo {
     width: 50px;
 }
 
+.logo img {
+    width: 100%;
+}
 
 .content {
     width: 60%;
@@ -43,12 +45,12 @@ img {
 .input {
     padding: 8px 80px;
     background-color: #fff;
-    border-radius: 8px 8px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 
 .input button {
-    padding: 8px 18px;
+    padding: 5px 20px;
     margin: 5px;
     border: transparent;
     border-radius: 5px;
@@ -68,7 +70,12 @@ img {
     background-color: #fff;
     padding: 30px 80px;
     margin-top: 2px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 5px 5px;
+}
+
+
+.task-box {
+    margin: 10px 0;
 }
 
 
@@ -83,12 +90,15 @@ span {
 }
 
 
+.task-list li {
+    margin: 10px 0;
+}
+
+
 .task-list figure,
 ul {
     display: inline-block;
     vertical-align: middle;
-    text-align: center;
-    ;
 }
 
 
@@ -100,7 +110,36 @@ img {
 .task-list span {
     background-color: lightskyblue;
     border-radius: 10px;
-    padding: 3px 8px;
+    padding: 2px 12px;
     color: #fff;
     margin: 0px 10px;
+}
+
+
+
+
+#color-blue {
+    background-color: blue;
+}
+
+
+
+#color-lightgreen {
+    background-color: lightgreen;
+}
+
+
+#color-green {
+    background-color: green;
+}
+
+
+#color-pink {
+    background-color: palevioletred;
+
+}
+
+
+#color-orange {
+    background-color: orange;
 }
