@@ -1,6 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+
+
+body {
+    background-color: #e6e6e6;
     font-family: 'Anek Telugu', sans-serif;
+    font-size: small;
+}
+
+
+.nav {
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+.nav-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo,
+img {
+    width: 50px;
 }
