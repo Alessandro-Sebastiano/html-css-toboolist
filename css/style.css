@@ -35,14 +35,15 @@ img {
 .content {
     width: 60%;
     min-width: 60%;
-    background-color: #fff;
     margin: 40px auto;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: px 5px 0px 0px;
 }
 
 
 .input {
     padding: 8px 80px;
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
 }
 
 
@@ -60,4 +61,46 @@ img {
     background-color: transparent;
     border: 1px solid lightgray;
     color: lightgray;
+}
+
+
+.section {
+    background-color: #fff;
+    padding: 30px 80px;
+    margin-top: 2px;
+    border-radius: 0 0 8px 8px;
+}
+
+
+.task-title details,
+span {
+    display: inline-block;
+}
+
+
+.task-list ul {
+    list-style: none;
+}
+
+
+.task-list figure,
+ul {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    ;
+}
+
+
+.task-list figure,
+img {
+    width: 20px;
+}
+
+.task-list span {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 3px 8px;
+    color: #fff;
+    margin: 0px 10px;
 }
