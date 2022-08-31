@@ -98,8 +98,7 @@ h1 {
 }
 
 
-.task-title details,
-span {
+.task-title details span {
     display: inline-block;
 }
 
@@ -155,7 +154,6 @@ figure img {
     font-size: 14px;
     vertical-align: middle;
 }
-
 
 /* task-list-highlighted-color*/
 
