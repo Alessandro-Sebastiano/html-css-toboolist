@@ -73,6 +73,7 @@ h1 {
     background-color: blue;
     color: #fff;
     font-weight: 500;
+    cursor: pointer;
 }
 
 #restyle {
@@ -100,6 +101,11 @@ h1 {
 .task-title details,
 span {
     display: inline-block;
+}
+
+
+summary {
+    cursor: pointer;
 }
 
 
